@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Home Page", async ({ page }) => {
+test("HomePage", async ({ page }) => {
   await page.goto("https://www.demoblaze.com/index.html");
 
   const pageTitle = await page.title();
