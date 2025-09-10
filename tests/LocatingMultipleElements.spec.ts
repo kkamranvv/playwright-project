@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Locate Multiple Elements", async ({ page }) => {
+test("LocateMultipleElements", async ({ page }) => {
   await page.goto("https://www.demoblaze.com/index.html");
 
   // const links = await page.$$("a");
