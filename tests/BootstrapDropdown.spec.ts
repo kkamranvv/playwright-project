@@ -5,7 +5,7 @@ test("Bootstrap dropdown", async ({ page }) => {
 
   await page.locator(".multiselect").click(); // Click on dropdown
 
-  const options = await page.locator("ul>li labek input");
+  const options = await page.locator("ul>li label input");
 
   await expect(options).toHaveCount(11);
 
